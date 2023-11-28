@@ -1,37 +1,37 @@
 /* style.css */
 
-/* Resetting some default browser styles */
-body, h1, p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Setting the font family and size */
-  body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-  }
-  
-  /* Styling the header */
-  h1 {
-    color: #333; /* Text color */
-    background-color: #f0f0f0; /* Background color */
-    padding: 10px; /* Padding around the text */
-    text-align: center; /* Center-align the text */
-  }
-  
-  /* Styling paragraphs */
-  p {
-    margin-bottom: 15px; /* Add some space below paragraphs */
-  }
-  
-  /* Styling links */
-  a {
-    color: #007bff; /* Link color */
-    text-decoration: none; /* Remove underlines from links */
-  }
-  
-  a:hover {
-    text-decoration: underline; /* Add underline on hover */
-  }
-  
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light background color */
+  color: #333; /* Text color */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #007bff; /* Header background color */
+  color: #fff; /* Header text color */
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
