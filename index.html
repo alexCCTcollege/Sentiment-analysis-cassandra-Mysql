@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {font-family: "Lato", sans-serif}
-.mySlides {display: none}
-</style>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body { font-family: "Lato", sans-serif }
+    .mySlides { display: none }
+    /* Add a class for the wallpaper section */
+    .wallpaper-section {
+      background-image: url('Wallpaper.png');
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 64px 16px;
+    }
+    /* Style for the h2 in the wallpaper section */
+    .wallpaper-section h2 {
+      margin-bottom: 20px;
+    }
+    /* Style for the p in the wallpaper section */
+    .wallpaper-section p {
+      margin-bottom: 20px;
+    }
+    /* Style for the image in the wallpaper section */
+    .wallpaper-section img {
+      width: 100%;
+      max-width: 800px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
 
 <!-- New Section with Wallpaper -->
-<div class="w3-container w3-content w3-center w3-padding-64" style="background-image: url('Wallpaper.png'); background-size: cover; color: white;">
+<div class="wallpaper-section">
   <h2 class="w3-wide">Alex Santini Portfolio</h2>
-  <p class="w3-opacity"><i>MSc in Data science with experience in Machine learning, neural networks, Data visualization and Big data technologies <br> looking for making an impact as data scientist</i></p>
-  <img src="path/to/your/image.jpg" alt="Image Description" style="width: 100%; max-width: 800px; margin-top: 20px;">
+  <p class="w3-opacity"><i>MSc in Data science with experience in Machine learning, neural networks, Data visualization and Big data technologies <br> looking for making an impact as a data scientist</i></p>
+  <img src="path/to/your/image.jpg" alt="Image Description">
 </div>
 
 
